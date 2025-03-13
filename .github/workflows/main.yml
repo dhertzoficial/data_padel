@@ -3,7 +3,7 @@ name: Tarefa Diária
 on:
   schedule:
     # Executa todos os dias à meia-noite (00:00 UTC)
-    - cron: '5 0 * * *'
+    - cron: '15 13 * * *'
   workflow_dispatch:  # Permite executar manualmente o workflow
 
 jobs:
